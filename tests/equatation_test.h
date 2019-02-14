@@ -26,4 +26,8 @@ TEST(equatationTest, num3) {
     ASSERT_NEAR(equatation(0, 2, 2).x1, -1.00, 0.001);
 }
 
+TEST(equatationTest, num4) {
+    ASSERT_EQ(equatation(0, 0, 1).flag, 0);
+}
+
 #endif // EQUATATION_TEST_H
