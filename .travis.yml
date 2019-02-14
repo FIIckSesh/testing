@@ -1,9 +1,9 @@
 language:
-  -cpp
+  - cpp
 
 script:
-  -qmake
-  -make
-  -./tests/tests
+  - qmake
+  - make
+  - ./tests/tests
 notifications:
   email: false
