@@ -6,7 +6,9 @@
 int main()
 {
     values val;
-    double a, b, c;
+    double a;
+    double b;
+    double c;
     printf("Введите коэффициенты: \n");
     scanf("%lf %lf %lf", &a, &b, &c);
     val = equatation(a, b, c);
